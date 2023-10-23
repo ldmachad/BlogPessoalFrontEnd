@@ -1,0 +1,103 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;   
+}
+
+.header{
+    background-color: rgb(0, 9, 185);
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    padding: 24px;
+}
+
+h1 {
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+      
+}
+
+li {
+    margin-left: 8px;
+    transition: 0.3s; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;   
+}
+
+.container {
+    display: flex;
+    background-color: rgb(0, 9, 185);
+    justify-content: space-around;
+    height: 700px;
+    align-items: center;
+}
+
+.txt-buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.txt-container h1 {
+    font-size: 50px;
+}
+
+.txt-container p{
+    color: white;
+    margin: 24px 0px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.novapostagem {
+    background-color: rgb(0, 9, 185);
+    color: white;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.novapostagem:hover {
+    background-color: white;
+    color: rgb(0, 9, 185);
+}
+
+.verpostagem {
+    color: rgb(0, 9, 185);
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.verpostagem:hover {
+    background-color:rgb(0, 9, 185);
+    border: solid 1px;
+    color: white;
+}
+
+img {
+    width: 400px;
+}
